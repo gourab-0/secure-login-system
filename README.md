@@ -23,15 +23,6 @@ A **secure and minimal CLI-based login system** built with Python and SQLite. It
 
 ---
 
-You’re seeing formatting issues in GitHub's dark theme because:
-
-* You're putting code block markers like ` ```bash ` inside a block that's already treated as code.
-* You’re using `>` (block quote) instead of proper Markdown structure for lists and sections.
-
-Here’s a **clean and properly formatted** version of the sections you can **copy-paste into your README.md** directly:
-
----
-
 ### 🛠️ How to Use
 
 ### 1. Clone the Repository
