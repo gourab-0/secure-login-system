@@ -23,37 +23,53 @@ A **secure and minimal CLI-based login system** built with Python and SQLite. It
 
 ---
 
-## 🛠️ How to Use
+You’re seeing formatting issues in GitHub's dark theme because:
+
+* You're putting code block markers like ` ```bash ` inside a block that's already treated as code.
+* You’re using `>` (block quote) instead of proper Markdown structure for lists and sections.
+
+Here’s a **clean and properly formatted** version of the sections you can **copy-paste into your README.md** directly:
+
+---
+
+### 🛠️ How to Use
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/gourab-0/secure-login-system.git
 cd secure-login-system
+````
 
 ### 2. Run the Script
+
 ```bash
 python secure_login.py
+```
 
 ### 3. Follow the Menu
 
-1. Register  
-2. Login  
-3. Enable Two-Factor Authentication  
-4. View Users  
-5. Logout  
+```
+1. Register
+2. Login
+3. Enable Two-Factor Authentication
+4. View Users
+5. Logout
 6. Exit
-
+```
 ---
-###🔐 How 2FA Works
->The system generates a Base32 secret key
->Every 30 seconds, a new 6-digit TOTP code is calculated
->Can be entered manually or scanned using apps like:
-    -Google Authenticator
-    -Authy
-    -Microsoft Authenticator
 
+## 🔐 How 2FA Works
+
+- The system generates a **Base32 secret key**
+- Every 30 seconds, a new 6-digit TOTP code is calculated
+- The code can be entered manually or scanned using apps like:
+  - Google Authenticator
+  - Authy
+  - Microsoft Authenticator
 ---
-✅ Requirements
--Python 3.x
--No third-party libraries — pure Python standard modules only!
 
+## ✅ Requirements
+
+- Python 3.x
+- No third-party libraries — pure Python standard modules only!
